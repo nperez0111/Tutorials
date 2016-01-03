@@ -30,7 +30,7 @@ This is how we describe that we are starting an SVG file. This is important beca
 
 This is similar to HTML in that it uses the basic syntax of ``<some-tag-here></close-with-that-same-tag-here>``
 
-Also it allows for properties on each tag in the format ``<tag property="value"></tag>``. property are special words that are options on the tag being set to a specific value.
+Also it allows for properties on each tag in the format. ``<tag property="value"></tag>`` The "property"s are special words that are options on the tag being set to a specific value.
 
 Anything that is apart of the svg tag is an option that you are setting to it so
 ```HTML
