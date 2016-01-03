@@ -15,11 +15,8 @@
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100">
-    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
-</svg>
-```
+
+![](1.png)
 ### Wait what?
 Let's just dissect this part
 ```HTML
@@ -48,11 +45,9 @@ Now we have this as our file
 </svg>
 ```
 But it only renders to:
-```SVG
-<svg width="100" height="100">
-    
-</svg>
-```
+
+![](Screenshot_1.png)
+
 Well that's not very useful Let's add some commands to it
 
 Something simple to start out with is a circle. A circle command looks like
@@ -78,11 +73,8 @@ This is telling the computer where you want the center of the circle to be in te
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100" style="background-color:white;">
-    <circle cx="22" cy="50" r="20" stroke="black">
-</svg>
-```
+
+![](Screenshot_2.png)
 
 ###While
 
@@ -92,11 +84,8 @@ Renders to:
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100" style="background-color:white;">
-    <circle cx="78" cy="50" r="20" stroke="black">
-</svg>
-```
+
+![](Screenshot_3.png)
 
 ## 'CX' Property
 I'm sure you can guess but.
@@ -109,11 +98,8 @@ This is telling the computer where you want the center of the circle to be in te
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100" style="background-color:white;">
-    <circle cy="22" cx="50" r="20" stroke="black">
-</svg>
-```
+
+![](Screenshot_4.png)
 
 ###While
 
@@ -123,11 +109,8 @@ Renders to:
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100" style="background-color:white;">
-    <circle cy="78" cx="50" r="20" stroke="black">
-</svg>
-```
+
+![](Screenshot_5.png)
 
 ## R property
 
@@ -139,11 +122,10 @@ This tells the computer the radius of the circle we'd like to be drawing.
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100" style="background-color:white;">
-    <circle cy="50" cx="50" r="20" stroke="black">
-</svg>
-```
+
+![](Screenshot_6.png)
+
+
 ### AND
 ```HTML
 <svg width="100" height="100">
@@ -151,11 +133,9 @@ Renders to:
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100" style="background-color:white;">
-    <circle cy="50" cx="50" r="40" stroke="black">
-</svg>
-```
+
+![](Screenshot_7.png)
+
 ##Stroke Property
 
 This tells the computer what color you'd like the outline of the shape to be.
@@ -165,11 +145,9 @@ This tells the computer what color you'd like the outline of the shape to be.
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100" style="background-color:white;">
-    <circle cy="50" cx="50" r="20" stroke="red">
-</svg>
-```
+
+![](Screenshot_8.png)
+
 ### OR
 ```HTML
 <svg width="100" height="100">
@@ -177,11 +155,8 @@ Renders to:
 </svg>
 ```
 Renders to:
-```SVG
-<svg width="100" height="100" style="background-color:white;">
-    <circle cy="50" cx="50" r="20" stroke="#FF0000">
-</svg>
-```
+![](Screenshot_9.png)
+
 > ``#FF0000`` is written in Hexadecimal which is a numbering system that can is used to represent colors as numbers. To write Hexadecimal colors you split up the numbers in pairs such as
 ``# FF 00 00``. Wait, FF isn't a number? What gives? Well Hexadecimal literally means numbering system of 16, we don't have numbers that go to 16 without repeating. Notice that 10 is just repeating counting as 1,2,3,4... in the ten's place. So, to get around this programmers decided to just use letters. 
 
