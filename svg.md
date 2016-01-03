@@ -48,11 +48,7 @@ Now we have this as our file
 </svg>
 ```
 But it only renders to:
-```SVG
-<svg width="100" height="100">
-    
-</svg>
-```
+![empty](1.png)
 Well that's not very useful Let's add some commands to it
 
 Something simple to start out with is a circle. A circle command looks like
