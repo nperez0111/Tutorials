@@ -1,6 +1,3 @@
-![SVG](https://psdtowp.net/images/svg.jpg)
-## I obviously didn't write that
-
 #This is yet another SVG tutorial for absolute beginners
 
 ## SVG is:
@@ -205,4 +202,9 @@ E | 14
 F | 15
 
 > But, how do you turn a number into a color? Well once it's split up like ``# FF 00 00`` We know that FF the biggest number possible in terms of a two digit Hexadecimal number. Think of it as sort of like 99 where it is 1 away from a 3 digit number. The numbers are split up like this to specify how much of one color to use in this pattern ``# (Amount of Red) (Amount of Blue) (Amount of Green)``. Therefore ``#FF0000`` is "pure red" , ``#00FF00`` is "pure blue" ,``#0000FF`` is "pure Green" ,``#000000`` is "pure black" and ``#FFFFFF`` is "pure white" a shade of gray is when all values are the same such as ``#333333`` or ``#CCCCCC``.
+
+##Some colors
+Color | Hex | Actual color
+----- | --- | ------------
+Light Gray | ``#CCCCCC`` | ```SVG <svg width="100" height="100" style="background-color:white;"><circle cy="50" cx="50" r="20" stroke="#FF0000"></svg>```
 
