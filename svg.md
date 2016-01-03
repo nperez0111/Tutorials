@@ -183,5 +183,9 @@ F | 15
 ##Some colors
 Color | Hex | Actual color
 ----- | --- | ------------
-Light Gray | ``#CCCCCC`` | ```SVG <svg width="100" height="100" style="background-color:white;"><circle cy="50" cx="50" r="20" stroke="#FF0000"></svg>```
+Light Gray | ``#CCCCCC`` | ![](Screenshot_10.png)
+Dark Gray | ``#333333`` | ![](Screenshot_11.png)
+Bad Ass Green | ``#BADA55`` | ![](Screenshot_12.png)
+```SVG 
+<svg width="100" height="100" style="background-color:white;"><circle cy="50" cx="50" r="20" stroke="none" fill="#BADA55"></svg>```
 
