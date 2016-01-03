@@ -60,3 +60,41 @@ Well that's not very useful Let's add some commands to it
 
 Something simple to start out with is a circle. A circle command looks like
 ```HTML
+<circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
+```
+Let's see, so we have:
+ - a new tag called circle which seems obvious
+ - a cx property
+ - a cy property
+ - an r property
+ - a stroke property
+ - a stroke-width property
+ - a fill property
+
+So let's go into each one
+## 'CX' Property
+This is telling the computer where you want the center of the circle to be.
+### Example
+```HTML
+<svg width="100" height="100">
+    <circle cx="22" cy="50" r="20" stroke="black">
+</svg>
+```
+Renders to:
+```SVG
+<svg width="100" height="100" style="background-color:white;">
+    <circle cx="22" cy="50" r="20" stroke="black">
+</svg>
+```
+###While
+```HTML
+<svg width="100" height="100">
+    <circle cx="78" cy="50" r="20" stroke="black">
+</svg>
+```
+Renders to:
+```SVG
+<svg width="100" height="100" style="background-color:white;">
+    <circle cx="78" cy="50" r="20" stroke="black">
+</svg>
+```
