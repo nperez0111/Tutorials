@@ -14,13 +14,13 @@
 ##Let's just dive into it
 ```HTML
 <svg width="100" height="100">
-    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" /
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
 </svg>
 ```
 Renders to:
 ```SVG
 <svg width="100" height="100">
-    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" /
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
 </svg>
 ```
 ### Wait what?
@@ -57,3 +57,6 @@ But it only renders to:
 </svg>
 ```
 Well that's not very useful Let's add some commands to it
+
+Something simple to start out with is a circle. A circle command looks like
+```HTML
