@@ -43,3 +43,17 @@ Anything that is apart of the svg tag is an option that you are setting to it so
 </svg>
 ```
 Width and height are options to SVG that we are telling the computer to realize. We set the width and height to specify a sort of "canvas" to SVG. Telling the computer we plan to draw within the bounds of 100 pixels in width and 100 pixels in height.
+
+Now we have this as our file
+```HTML
+<svg width="100" height="100">
+    
+</svg>
+```
+But it only renders to:
+```SVG
+<svg width="100" height="100">
+    
+</svg>
+```
+Well that's not very useful Let's add some commands to it
