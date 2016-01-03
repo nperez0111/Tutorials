@@ -159,3 +159,17 @@ Renders to:
     <circle cy="50" cx="50" r="40" stroke="black">
 </svg>
 ```
+##Stroke Property
+
+This tells the computer what color you'd like the outline of the shape to be.
+```HTML
+<svg width="100" height="100">
+    <circle cy="50" cx="50" r="20" stroke="red">
+</svg>
+```
+Renders to:
+```SVG
+<svg width="100" height="100" style="background-color:white;">
+    <circle cy="50" cx="50" r="20" stroke="red">
+</svg>
+```
