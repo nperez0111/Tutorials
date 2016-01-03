@@ -73,7 +73,7 @@ Let's see, so we have:
 
 So let's go into each one
 ## 'CX' Property
-This is telling the computer where you want the center of the circle to be.
+This is telling the computer where you want the center of the circle to be in terms of X.
 ### Example
 ```HTML
 <svg width="100" height="100">
@@ -96,5 +96,34 @@ Renders to:
 ```SVG
 <svg width="100" height="100" style="background-color:white;">
     <circle cx="78" cy="50" r="20" stroke="black">
+</svg>
+```
+
+## 'CX' Property
+I'm sure you can guess but.
+
+This is telling the computer where you want the center of the circle to be in terms of Y.
+### Example
+```HTML
+<svg width="100" height="100">
+    <circle cy="22" cx="50" r="20" stroke="black">
+</svg>
+```
+Renders to:
+```SVG
+<svg width="100" height="100" style="background-color:white;">
+    <circle cy="22" cx="50" r="20" stroke="black">
+</svg>
+```
+###While
+```HTML
+<svg width="100" height="100">
+    <circle cy="78" cx="50" r="20" stroke="black">
+</svg>
+```
+Renders to:
+```SVG
+<svg width="100" height="100" style="background-color:white;">
+    <circle cy="78" cx="50" r="20" stroke="black">
 </svg>
 ```
