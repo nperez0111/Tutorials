@@ -155,6 +155,7 @@ Renders to:
 </svg>
 ```
 Renders to:
+
 ![](Screenshot_9.png)
 
 > ``#FF0000`` is written in Hexadecimal which is a numbering system that can is used to represent colors as numbers. To write Hexadecimal colors you split up the numbers in pairs such as
