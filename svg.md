@@ -86,7 +86,9 @@ Renders to:
     <circle cx="22" cy="50" r="20" stroke="black">
 </svg>
 ```
+
 ###While
+
 ```HTML
 <svg width="100" height="100">
     <circle cx="78" cy="50" r="20" stroke="black">
@@ -115,7 +117,9 @@ Renders to:
     <circle cy="22" cx="50" r="20" stroke="black">
 </svg>
 ```
+
 ###While
+
 ```HTML
 <svg width="100" height="100">
     <circle cy="78" cx="50" r="20" stroke="black">
@@ -125,5 +129,33 @@ Renders to:
 ```SVG
 <svg width="100" height="100" style="background-color:white;">
     <circle cy="78" cx="50" r="20" stroke="black">
+</svg>
+```
+
+## R property
+
+This tells the computer the radius of the circle we'd like to be drawing.
+
+```HTML
+<svg width="100" height="100">
+    <circle cy="50" cx="50" r="20" stroke="black">
+</svg>
+```
+Renders to:
+```SVG
+<svg width="100" height="100" style="background-color:white;">
+    <circle cy="50" cx="50" r="20" stroke="black">
+</svg>
+```
+### AND
+```HTML
+<svg width="100" height="100">
+    <circle cy="50" cx="50" r="40" stroke="black">
+</svg>
+```
+Renders to:
+```SVG
+<svg width="100" height="100" style="background-color:white;">
+    <circle cy="50" cx="50" r="40" stroke="black">
 </svg>
 ```
