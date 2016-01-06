@@ -1,8 +1,12 @@
-#This is yet another SVG tutorial for absolute beginners
+#SVG tutorial for absolute beginners
+
+##For who is this tutorial?
+For people who have never seen a line of code in their life but would like to see a simple langauge used to draw stuff and have the possibility of learning animations.
 
 ## SVG is:
  - Scalable Vector Graphics
   - Meaning it scales to any resolution nicely and written in math terms
+   - Don't worry it's not that much math as long as you know how to graph on an XY Plane you'll do fine.
 
 ## SVG is not:
  - Easy to write by hand (That's why you are reading this)
@@ -58,12 +62,12 @@ Something simple to start out with is a circle. A circle command looks like
 ```
 Let's see, so we have:
  - a new tag called circle which seems obvious
- - a cx property
- - a cy property
- - an r property
- - a stroke property
- - a stroke-width property
- - a fill property
+ - a `cx` property
+ - a `cy` property
+ - an `r` property
+ - a `stroke` property
+ - a `stroke-width` property
+ - a `fill` property
 
 So let's go into each one
 ## 'CX' Property
@@ -208,4 +212,28 @@ Renders to:
 
 ![](Screenshot_14.png)
 
+##Alright enough with those Circles!
+Let's get into another shape you may be familiar with, Rectangles.
+
+Rectangles have a pretty basic syntax:
+```HTML
+<rect width="75" height="30" x="10" y="15">
+```
+Renders to:
+
+![](Screenshot_15.png)
+```SVG
+<svg width="100" height="100" style="background-color:white">
+    <rect width="75" height="30" x="10" y="15">
+</svg>
+```
+##Let's get into it's properties
+
+ - `width` property
+ - `height` property
+ - `x` property
+ - `y` property
+ - `rx` property
+ - `ry` property
+ - 
 
