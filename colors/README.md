@@ -5,7 +5,7 @@ Before we go into actual colors we have to specify which way that we would like 
  - Hexadecimal 
   - Example `#000000` or `#000` for black, `#FFFFFF` or `#FFF` for white
     - Why is it numbers?
-    - Is there math involved?
+    - [Is there math involved?](is-there-math-involved)
     - How do I get colors out of this?
     - What's with the different lengths?
  - RGB
@@ -38,7 +38,9 @@ F | 15
 10 | 16
 
 ##Why is it numbers?
-
+Because programmers don't like coming up with names for every color you have ever seen in your life. Imagine `dark-red`, `darker-red`, `auburn`, `dark-auburn`,`light-dark-auburn`.
+##Is there math involved
+No.
 ##How do I get a color out of this?
 Well once it's split up like ``# FF 00 00`` We know that FF the biggest number possible in terms of a two digit Hexadecimal number (Think of it as sort of like 99 where it is 1 away from a 3 digit number). The numbers are split up like this to specify how much of one color to use in this pattern ``# (Amount of Red) (Amount of Blue) (Amount of Green)``. Therefore ``#FF0000`` is "pure red" , ``#00FF00`` is "pure blue" ,``#0000FF`` is "pure Green" ,``#000000`` is "pure black" and ``#FFFFFF`` is "pure white" a shade of gray is when all values are the same such as ``#333333`` or ``#CCCCCC``.
 ##Some colors
