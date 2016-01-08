@@ -216,4 +216,13 @@ It changes the width of the rectangle, but I think you guessed that one.
 Guess! Guess! Guess! You won't figure this one out! Let's move on.
 
 ##X property
+
 This changes the X coordinate of the rectangle, but let's go a little more into how this calculated. The X Axis is actually the left-most edge of the canvas. This means that the x coordinate is actually specifying the space _<b>from the left edge of the canvas</b>_ (This is important because it is not very typical)
+
+##Y Property
+
+This changes the Y cpprdinate of the rectangle and is in reference to the top of the canvas or container.
+
+##RX Property
+
+This refers to the radius 
