@@ -15,8 +15,8 @@ Before we go into actual colors we have to specify which way that we would like 
     - [How does this one work?](how-does-this-one-work)
  - RGBA
   - Example `rgba(0,0,0,1)` for black, `rgba(255,255,255,1)` for white
-   - Isn't it the same as that other one?
-   - So what's different
+   - [Isn't it the same as that other one?](isn't-it-the-same-as-that-other-one)
+   - [So what's different?](so-what's-different)
 
 # Hexadecimal
 
@@ -40,19 +40,19 @@ E | 14
 F | 15
 10 | 16
 
-## Why is it numbers
+## Why is it numbers?
 
 Because programmers don't like coming up with names for every color you have ever seen in your life. Imagine `dark-red`, `darker-red`, `auburn`, `dark-auburn`,`light-dark-auburn`.
 
-## Is there math involved
+## Is there math involved?
 
 No.
 
-## How do I get a color out of this
+## How do I get a color out of this?
 
 Well once it's split up like ``# FF 00 00`` We know that FF the biggest number possible in terms of a two digit Hexadecimal number (Think of it as sort of like 99 where it is 1 away from a 3 digit number). The numbers are split up like this to specify how much of one color to use in this pattern ``# (Amount of Red) (Amount of Blue) (Amount of Green)``. Therefore ``#FF0000`` is "pure red" , ``#00FF00`` is "pure blue" ,``#0000FF`` is "pure Green" ,``#000000`` is "pure black" and ``#FFFFFF`` is "pure white" a shade of gray is when all values are the same such as ``#333333`` or ``#CCCCCC``.
 
-##What is with the different lengths
+##What is with the different lengths?
 
 Why are we allowed to use either `#000` or `#000000`? Well when you use 3 hexadecimal numbers like `#AB3` the computer already knows to expand it to six by repeating each number twice. Therefore, `#AB3` becomes `#AABB33`.
 
@@ -73,3 +73,22 @@ RGB is another way to specify colors but uses actual numbers and is split up a l
 YES! These numbers actually correspond exactly to hexadecimal. FF in hexadecimal numbering converts to 255 which is the max value RGB takes in for a single color.
 
 ## How does this one work?
+RGB is meant to be a more readable way of using colors. 
+
+RGB stands for:
+ - Red
+ - Green
+ - Blue
+
+And is used exactly in that order surrounded by parenthesis and separated by commas.
+
+`RGB( Red , Green , Blue )`
+# RGBA
+
+## Isn't it the same as the other one?
+
+You sure ask a lot of questions! Yes you are correct, it is the same as the other one with the added A and yet another number!
+
+## So what's different
+
+The A in RGBA means `alpha channel` and in plain English it means transparency. So the transparency factor allows you to show elements that overlap or if there is a dark background it will alow some of that color to "bleed" through.
