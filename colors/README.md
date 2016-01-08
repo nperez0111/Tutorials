@@ -26,7 +26,7 @@ Before we go into actual colors we have to specify which way that we would like 
 ## Counting goes more like this:
 
 Hexadecimal | Normal
-------------|-------
+:------------:|:-------:
 0 | 0
 1 | 1
 2 | 2
