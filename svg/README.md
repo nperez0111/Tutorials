@@ -197,11 +197,7 @@ Rectangles have a pretty basic syntax:
 Renders to:
 
 ![](Screenshot_15.png)
-```SVG
-<svg width="100" height="100" style="background-color:white">
-    <rect width="75" height="30" x="10" y="15">
-</svg>
-```
+
 ##Let's get into it's properties
 
  - `width` property
