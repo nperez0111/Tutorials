@@ -62,12 +62,12 @@ Something simple to start out with is a circle. A circle command looks like
 ```
 Let's see, so we have:
  - a new tag called circle which seems obvious
- - a `cx` property
- - a `cy` property
- - an `r` property
- - a `stroke` property
- - a `stroke-width` property
- - a `fill` property
+ - [a `cx` property](#'cx'-property)
+ - [a `cy` property](#'cy'-property)
+ - [an `r` property](#'r'-property)
+ - [a `stroke` property](#'stroke'-property)
+ - [a `stroke-width` property](#'stroke-width'-property)
+ - [a `fill` property](#'fill'-property)
 
 So let's go into each one
 ## 'CX' Property
