@@ -62,8 +62,8 @@ Something simple to start out with is a circle. A circle command looks like
 ```
 Let's see, so we have:
  - a new tag called circle which seems obvious
- - [a `cx` property](#'cx'-property)
- - [a `cy` property](#'cy'-property)
+ - [a `cx` property](#cx-property)
+ - [a `cy` property](#cy-property)
  - [an `r` property](#r-property)
  - [a `stroke` property](#stroke-property)
  - [a `stroke-width` property](#stroke-width-property)
@@ -93,7 +93,7 @@ Renders to:
 
 ![](Screenshot_3.png)
 
-## 'CX' Property
+## 'CY' Property
 I'm sure you can guess but.
 
 This is telling the computer where you want the center of the circle to be in terms of Y.
