@@ -64,10 +64,10 @@ Let's see, so we have:
  - a new tag called circle which seems obvious
  - [a `cx` property](#'cx'-property)
  - [a `cy` property](#'cy'-property)
- - [an `r` property](#'r'-property)
- - [a `stroke` property](#'stroke'-property)
- - [a `stroke-width` property](#'stroke-width'-property)
- - [a `fill` property](#'fill'-property)
+ - [an `r` property](#r-property)
+ - [a `stroke` property](#stroke-property)
+ - [a `stroke-width` property](#stroke-width-property)
+ - [a `fill` property](#fill-property)
 
 So let's go into each one
 ## 'CX' Property
@@ -200,12 +200,12 @@ Renders to:
 
 ##Let's get into it's properties
 
- - `width` property
- - `height` property
- - `x` property
- - `y` property
- - `rx` property
- - `ry` property
+ - [`width` property](#width-property)
+ - [`height` property](#height-property)
+ - [`x` property](#x-property)
+ - [`y` property](#y-property)
+ - [`rx` property](#rx-property)
+ - [`ry` property](#ry-property)
 
 ##Width property
 
