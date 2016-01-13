@@ -221,7 +221,7 @@ This changes the X coordinate of the rectangle, but let's go a little more into 
 
 ##Y Property
 
-This changes the Y cpprdinate of the rectangle and is in reference to the top of the canvas or container.
+This changes the Y coordinate of the rectangle and is in reference to the top of the canvas or container.
 
 ##RX Property
 
