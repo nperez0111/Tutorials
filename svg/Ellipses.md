@@ -11,8 +11,18 @@ Let's look at Ellipse Properties
 Looks just how you thought it would.
 
 ![](Screenshot_16.png)
-```SVG
-<svg style="background-color:white" width=100 height=100>
-  <ellipse cx="50" cy="50" rx="40" ry="25"/>
-<svg>
-```
+## RX Property
+
+This controls how wide the ellipse will be. More formally, this is the radius of the ellipse as it approaches 0 in height.
+
+## RY Property
+
+Same as above just switch X with Y.
+
+## CX Property
+
+Just like the circle this determines the starting point where the radius will spin about in terms of X.
+
+## CY Property
+
+Same as above just switch X with Y
