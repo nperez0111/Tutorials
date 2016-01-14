@@ -225,4 +225,8 @@ This changes the Y coordinate of the rectangle and is in reference to the top of
 
 ##RX Property
 
-This refers to the radius 
+This refers to the radius of the circle in terms of X of the rounding of the rectangle
+
+##RY Property
+
+Same as ["RX"](#rx-prorperty) but for `Y`
