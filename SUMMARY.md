@@ -4,7 +4,7 @@
 * [SVG](svg/README.md)
    * [Circles](svg/Circles.md)
    * [Rectangles](svg/Rectangles.md)
-   * [Ellipses.md](svg/ellipses.md)
+   * [Ellipses](svg/Ellipses.md)
    * [All Elements](svg/AllElements.md)
 * [Colors](colors/README.md)
 
