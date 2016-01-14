@@ -1,6 +1,6 @@
 #Rectangles In SVG
 
-Rectangles have a pretty basic syntax:
+Rectangles have a pretty basic [syntax](general/definitions.md#syntax):
 ```HTML
 <rect width="75" height="30" x="10" y="15">
 ```
