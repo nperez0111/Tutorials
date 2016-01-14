@@ -40,3 +40,5 @@ This refers to the radius of the circle in terms of X of the rounding of the rec
 ##RY Property
 
 Same as [`RX` property](#rx-prorperty) but for `Y`.
+
+Bored of boring rectangles? [Let's get back into more fun shapes like ellipses](Ellipses.md)
