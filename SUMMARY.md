@@ -8,4 +8,5 @@
    * [Lines](svg/Lines.md)
    * [All Elements](svg/AllElements.md)
 * [Colors](colors/README.md)
+* [General](general/README.md)
 
