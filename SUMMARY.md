@@ -7,6 +7,6 @@
    * [Ellipses](svg/Ellipses.md)
    * [Lines](svg/Lines.md)
    * [All Elements](svg/AllElements.md)
-* [Colors](colors/README.md)
 * [General](general/README.md)
+ * [Colors](general/colors/README.md)
 
