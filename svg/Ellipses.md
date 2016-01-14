@@ -26,3 +26,5 @@ Just like the circle this determines the starting point where the radius will sp
 ## CY Property
 
 Same as above just switch X with Y
+
+Shapes are pretty boring right?[Let's just get into lines](#Lines.md)
