@@ -2,6 +2,11 @@
 
 Let's look at Ellipse Properties
 
+## Syntax
+```HTML
+<ellipse cx="75" cy="75" rx="20" ry="5"/>
+```
+
  - [`rx` property](#rx-property)
  - [`ry` property](#ry-property)
  - [`cx` property](#cx-property)
