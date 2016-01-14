@@ -6,6 +6,6 @@
    * [Rectangles](svg/Rectangles.md)
    * [Ellipses](svg/Ellipses.md)
    * [All Elements](svg/AllElements.md)
-   * Lines
+   * [Lines](svg/Lines.md)
 * [Colors](colors/README.md)
 
