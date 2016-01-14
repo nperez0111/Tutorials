@@ -1,7 +1,7 @@
 #SVG tutorial for absolute beginners
 
 ##For who is this tutorial?
-For people who have never seen a line of code in their life but would like to see a simple langauge used to draw stuff and have the possibility of learning animations.
+For people who have never seen a line of code in their life but would like to see a simple language used to draw stuff and have the possibility of learning animations.
 
 ## SVG is:
  - Scalable Vector Graphics
@@ -32,7 +32,7 @@ Alright so what we have here is ``<SVG some other stuff here>`` and ``</svg>``
 
 This is how we describe that we are starting an SVG file. This is important because it lets the computer know when to start and stop thinking in terms of SVG.
 
-This is similar to HTML in that it uses the basic syntax of ``<some-tag-here></close-with-that-same-tag-here>``
+This is similar to HTML in that, it uses the basic syntax of ``<some-tag-here></close-with-that-same-tag-here>``
 
 Also it allows for properties on each tag in the format. ``<tag property="value"></tag>`` The "property"s are special words that are options on the tag being set to a specific value.
 
