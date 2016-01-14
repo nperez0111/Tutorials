@@ -1,2 +1,2 @@
-# Lines
+# Lines in SVG
 
